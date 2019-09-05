@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2019-09-05T16:20:12.452Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDAY3UYVGBINBZOIQZFZ"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "12.252.188.198"
+            },
+            "responseElements": {
+                "x-amz-request-id": "F86B9E9B6BB4675B",
+                "x-amz-id-2": "HZlETOoXpq3GUbAQ0Dm7DavMQl5DmDT5ak0lnJIc2MyKt7U7QqX1sWyk45kDfO+jyoTAjKvanB8="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "triggerLandingZoneWatcherLambda",
+                "bucket": {
+                    "name": "data-lake-landingzone-bucket-poc",
+                    "ownerIdentity": {
+                        "principalId": "A1J8L4JDNSJ26H"
+                    },
+                    "arn": "arn:aws:s3:::data-lake-landingzone-bucket-poc"
+                },
+                "object": {
+                    "key": "asdf_FedIntRate_08302019.csv",
+                    "size": 25,
+                    "eTag": "2d7775600e97e40d2f3a314ba3ea388a",
+                    "sequencer": "005D7135BC67F4880B"
+                }
+            }
+        }
+    ]
+}
